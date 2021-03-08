@@ -1,0 +1,34 @@
+package com.cos.phoneapp.service;
+
+import org.springframework.stereotype.Service;
+
+import com.cos.phoneapp.domain.PhoneRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+@Service
+public class PhoneService {
+	
+	private final PhoneRepository phoneRepository;
+	
+	public void 전체보기() {
+		
+	}
+	
+	public void 상세보기() {
+		
+	}
+	
+	public void 삭제하기() {
+		
+	}
+	
+	public void 수정하기() {
+		
+	}
+	
+	public void 저장하기() {
+		
+	}
+}

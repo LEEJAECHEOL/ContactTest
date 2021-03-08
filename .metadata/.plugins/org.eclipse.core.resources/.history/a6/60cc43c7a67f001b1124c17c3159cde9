@@ -1,0 +1,13 @@
+package com.cos.phoneapp.web;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PhoneController {
+	
+	@GetMapping("/phone")
+	public void findAll() {
+		
+	}
+}

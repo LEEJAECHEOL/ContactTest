@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:hint=" Input Name!! "
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="50dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_tel"
+        android:layout_width="match_parent"
+        android:hint=" Input Tel Number!! "
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

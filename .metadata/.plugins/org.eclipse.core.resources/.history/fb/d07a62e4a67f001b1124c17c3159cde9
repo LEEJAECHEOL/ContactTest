@@ -1,0 +1,37 @@
+package com.cos.phoneapp.web;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cos.phoneapp.domain.Phone;
+import com.cos.phoneapp.web.dto.CMRespDto;
+
+@RestController
+public class PhoneController {
+	
+	@GetMapping("/phone")
+	// 폰을 상속하는 모든것
+	public CMRespDto<? extends Phone> findAll() {
+		return null;
+	}
+	
+	@GetMapping("/phone/{id}")
+	public CMRespDto<?> findById(@PathVariable Long id) {
+		return null;
+	}
+	
+	@DeleteMapping("/phone/{id}")
+	public CMRespDto<?> delete(@PathVariable Long id) {
+		return null;
+	}
+	
+	@PutMapping("/phone/{id}")
+	public CMRespDto<?> findById(@PathVariable Long id, @RequestBody Phone phone) {
+		return null;
+	}
+	
+}
